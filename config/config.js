@@ -19,7 +19,7 @@ var theme_name = 'dist';
 
 var config = {
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Genson\'s Docs',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   // This should be the full path to your Raneto installation:
@@ -42,7 +42,7 @@ var config = {
   support_email: '',
 
   // Footer Text / Copyright
-  copyright: `Copyright &copy; ${new Date().getFullYear()} - <a href="https://raneto.com">Powered by Raneto</a>`,
+  copyright: `Copyright &copy; ${new Date().getFullYear()} - <a href="https://www.baidu.com">Powered by Genson</a>`,
 
   // Excerpt length (used in search)
   excerpt_length: 400,
@@ -69,7 +69,8 @@ var config = {
 
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Cannot be an absolute path
-  content_dir: path.join(__dirname, '..', 'content', 'pages'),
+  content_dir: path.join(__dirname, '..', 'content', 'Genson'),
+  //content_dir: 'F:/typora_workspace/MARKDOWN/工作笔记',
 
   // Where is the public directory or document root?
   public_dir: path.join(theme_dir, theme_name, 'public'),
